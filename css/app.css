@@ -90,3 +90,15 @@ p {
 .tper {
     text-align: right;
 }
+.secondary {
+    transition: 1s;
+    background-color: #000000;
+    border: solid 2px #fff;
+}
+.secondary a {
+    color: #fff;
+}
+.secondary:hover {
+    transition: 1s;
+    border-color: blue;
+}
