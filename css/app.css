@@ -78,7 +78,7 @@ body {
 .bg {
     background-color: yellow;
 }
-.menu--shylock one {
+.menu--shylock {
     position: fixed;
 }
 .one {
@@ -86,4 +86,7 @@ body {
 }
 p {
     color: #fff;
+}
+.tper {
+    text-align: right;
 }
