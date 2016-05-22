@@ -49,7 +49,7 @@ footer a {
 body {
     background-color: #000000;
 }
-.menu {
+.left {
     padding: 34px;
     font-size: 1.5em;
     font-weight: 700;
@@ -59,13 +59,29 @@ body {
     color: #fff;
 }
 
-/*.menu a:hover{*/
-
-transform: rotate(2deg);
-
+}
+.middl {
+    font-size: 1em;
+}
+.middl li {
+    transition: 1s;
+    transform: translateX(-11px);
+}
+.middl li:hover {
+    transition: 2s;
+    background-color: darkorange;
+    transform: translateX(11px);
+}
+.row {
+    max-width: 1350px;
+}
+.bg {
+    background-color: yellow;
+}
+.menu--shylock one {
+    float: right;
 }
 
-.cent {
-    padding-top: 200px;
-    padding-bottom: 200px;
+.one {
+    float: right;
 }
