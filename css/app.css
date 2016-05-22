@@ -50,6 +50,7 @@ body {
     background-color: #000000;
 }
 .left {
+    padding-left: 34px;
     padding: 34px;
     font-size: 1.5em;
     font-weight: 700;
@@ -136,7 +137,6 @@ h2 {
 .me p {
     font-size: em;
 }
-
 .clol {
     background-color: #000000;
 }
