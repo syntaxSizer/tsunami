@@ -79,9 +79,8 @@ body {
     background-color: yellow;
 }
 .menu--shylock one {
-    float: right;
+    position: fixed;
 }
-
 .one {
     float: right;
 }
