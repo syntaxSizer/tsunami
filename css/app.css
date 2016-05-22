@@ -104,3 +104,16 @@ p {
     transition: 1s;
     border-color: blue;
 }
+.o:hover {
+    background-color: blue;
+}
+.tw:hover {
+    background-color: #F0E13E;
+}
+.thr:hover {
+    background-color: #09b9bc;
+}
+.first {
+    font-size: 2em;
+    font-weight: 800;
+}
