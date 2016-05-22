@@ -73,7 +73,8 @@ body {
     transform: translateX(11px);
 }
 .row {
-    max-width: 1350px;
+    max-width: 100%;
+    ;
 }
 .bg {
     background-color: yellow;
@@ -91,7 +92,7 @@ p {
     text-align: right;
 }
 .secondary {
-    margin-top: 25 px;
+    margin-top: 35px;
     padding: 13px;
     transition: 1s;
     background-color: #000000;
@@ -116,4 +117,22 @@ p {
 .first {
     font-size: 2em;
     font-weight: 800;
+}
+.log li {
+    list-style: none;
+    display: inline-block;
+}
+.log img {
+    width: 200px;
+    height: 200px;
+}
+.om {
+    /*    padding-top: 200px;*/
+}
+h2 {
+    color: #fff;
+    font-weight: 100;
+}
+.me p {
+    font-size: em;
 }
