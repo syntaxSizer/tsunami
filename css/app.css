@@ -2,12 +2,10 @@
 GENERAL
 *******************************************/
 
-.wrap{
-	width:90%;
-	margin: 0 auto;
-	max-width: 1100px;
-	
-
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 /*******************************************
@@ -15,58 +13,54 @@ NAV
 ********************************************/
 
 
-
-
-
-
-
-
-
-
 /*******************************************
 HERO
 ********************************************/
-.hero{
-	background-color: #999;
-	padding: 80px 0px; 
-	height: 400px;
 
+.hero {
+    background-color: #999;
+    padding: 80px 0px;
+    height: 400px;
 }
-
-.button.success{
-	background-color: orange;
+.button.success {
+    background-color: orange;
 }
-
-
-
-
-
-
 
 /*******************************************
 MAIN CONTENT
 ********************************************/
 
-.main{	
-	padding: 80px 0px;	
-
+.main {
+    padding: 80px 0px;
 }
-
-
-
-
-
-
-
 
 /*******************************************
 FOTTER
 ********************************************/
-footer{
-	height: 300px;
-	background-color: #222;
-	padding: 80px 0px;	
+
+footer {
+    height: 300px;
+    background-color: #222;
+    padding: 80px 0px;
 }
-footer a{
-	display: block;
+footer a {
+    display: block;
+}
+body {
+    background-color: #000000;
+}
+.menu {
+    padding: 34px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+}
+.menu a {
+    color: #fff;
+}
+
+/*.menu a:hover{*/
+
+transform: rotate(2deg);
+
 }
