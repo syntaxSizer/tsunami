@@ -91,6 +91,8 @@ p {
     text-align: right;
 }
 .secondary {
+    margin-top: 25 px;
+    padding: 13px;
     transition: 1s;
     background-color: #000000;
     border: solid 2px #fff;
