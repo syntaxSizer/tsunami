@@ -63,6 +63,7 @@ body {
 }
 .middl {
     font-size: 1em;
+    background-color: darkred;
 }
 .middl li {
     transition: 1s;
