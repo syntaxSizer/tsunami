@@ -65,14 +65,68 @@ body {
     font-size: 1em;
     background-color: darkred;
 }
-.middl li {
+.middl .I {
     transition: 1s;
     transform: translateX(-11px);
 }
-.middl li:hover {
+.middl .I:hover {
+    border-bottom-right-radius: 35px;
     transition: 2s;
-    background-color: darkorange;
+    background-color: aqua;
     transform: translateX(11px);
+}
+.middl .II {
+    transition: 1s;
+    transform: translateX(-11px);
+}
+.middl .II:hover {
+    border-bottom-right-radius: 35px;
+    transition: 2s;
+    background-color: red;
+    transform: translateX(11px);
+}
+.middl .III {
+    transition: 1s;
+    transform: translateX(-11px);
+}
+.middl .III:hover {
+    border-bottom-right-radius: 35px;
+    transition: 2s;
+    background-color: red;
+    transform: translateX(11px);
+}
+.middl .IV {
+    transition: 1s;
+    transform: translateX(-11px);
+}
+.middl .IV:hover {
+    border-bottom-right-radius: 35px;
+    transition: 2s;
+    background-color: red;
+    transform: translateX(11px);
+}
+.middl .V {
+    transition: 1s;
+    transform: translateX(-11px);
+}
+.middl .V:hover {
+    border-bottom-right-radius: 35px;
+    transition: 2s;
+    background-color: red;
+    transform: translateX(11px);
+}
+.middl .IX {
+    transition: 1s;
+    transform: translateX(-11px);
+}
+.middl .IX:hover {
+    border-bottom-right-radius: 35px;
+    transition: 2s;
+    background-color: #42FE41;
+    transform: translateX(11px);
+}
+span:hover {
+    color: transparent;
 }
 .row {
     max-width: 100%;
