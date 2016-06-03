@@ -49,6 +49,9 @@ footer a {
 body {
     background-color: #000000;
 }
+.bg {
+    background-color: #000000;
+}
 .left {
     padding-left: 34px;
     padding: 34px;
