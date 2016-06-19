@@ -204,8 +204,11 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
 }
-
 .head {
+    height: 144px;
+    width: 605px;
+    max-width: 100%;
+    font-family: 'Cairo', sans-serif;
     font-size: 91px;
     font-weight: normal;
     letter-spacing: -1px;
@@ -213,5 +216,23 @@ h2 {
     line-height: 72.8px;
     text-align: center;
     text-transform: capitalize;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+/*hide big nav on small screens*/
+@media (max-width:980px) {
+    .menu--shylock {
+        display: none;
+    }
+    /*
+    .one{
+        display: none;
+    }
+    .menu--list{
+        display: none;
+*/
+}
 
 }
