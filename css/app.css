@@ -252,6 +252,7 @@ h2 {
     margin: 0;
     padding: 0;
     list-style: none;
+    z-index: 1001;
 }
 .menu__item {
     display: block;
@@ -507,7 +508,8 @@ figure.effect-milo:hover p {
 
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
-    z-index: 1000;
+    /*    z-index: 1000;*/
+
     text-indent: 200%;
     white-space: nowrap;
     font-size: 0;
@@ -562,4 +564,16 @@ figure.effect-milo:hover p {
     left: 0;
     width: 100%;
     height: 100%;
+}
+.head-location {
+    max-width: 100%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    word-spacing: 0;
+    line-height: 72.8px;
+    text-align: left;
+    padding-left: 12px;
+    text-transform: capitalize;
 }
