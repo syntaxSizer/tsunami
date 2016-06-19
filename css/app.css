@@ -334,3 +334,43 @@ h2 {
 .menu--shylock .menu__link::after {
     background: #d94f5c;
 }
+
+/*responsive youtube*/
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-text p {
+    font-size: 13px;
+    font-weight: blod;
+    line-height: 18.2px;
+    word-spacing: 0;
+}
+.video-text h2 {
+    margin-top: 8px;
+    font-size: 15.6px;
+    font-weight: 700;
+    line-height: 18.72px;
+    letter-spacing: 0.234px;
+    word-spacing: 0;
+    text-transform: capitalize;
+}
+.video-text a {
+    color: #FF6953;
+    font-size: 15.6px;
+    letter-spacing: 0.234px;
+    font-weight: 600;
+    line-height: 18.72px;
+    text-transform: capitalize;
+}
