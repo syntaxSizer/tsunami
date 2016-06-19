@@ -528,3 +528,25 @@ figure.effect-milo:hover p {
     letter-spacing: 1px;
     font-size: 68.5%;
 }
+.lin-up-art {
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-size: 91px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    word-spacing: 0;
+    line-height: 72.8px;
+    text-align: center;
+    text-transform: capitalize
+}
+.lin-up-art-littl {
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    word-spacing: 0;
+    line-height: 72.8px;
+    text-align: center;
+    text-transform: capitalize
+}
