@@ -198,3 +198,20 @@ h2 {
 .clol {
     background-color: #000000;
 }
+.background {
+    background-image: url(../images/antarctic_landscape-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head {
+    font-size: 91px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    word-spacing: 0;
+    line-height: 72.8px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
