@@ -221,7 +221,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.76);
 }
 
-/*hide big nav on small screens*/
+/* small screens*/
 @media (max-width:980px) {
     .menu--shylock {
         display: none;
