@@ -234,6 +234,9 @@ h2 {
     .arrow {
         display: none;
     }
+    .lin-up-art-littl p {
+        font-size: 14px;
+    }
 }
 
 /*nav bar*/
@@ -614,7 +617,7 @@ figure.effect-milo:hover p {
 }
 .fixed-nav-bar.scrolled {
     min-height: 80px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.66);
     box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.6);
 }
 .fixed-nav-bar.scrolled .logo {
@@ -634,6 +637,7 @@ figure.effect-milo:hover p {
     transition: 0.3s ease;
 }
 .drop-down-item {
+    color: #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -779,4 +783,7 @@ figure.effect-milo:hover p {
     .the-base {
         display: none;
     }
+}
+.loction {
+    padding-left: 10px;
 }
