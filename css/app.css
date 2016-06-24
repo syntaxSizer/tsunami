@@ -641,6 +641,7 @@ figure.effect-milo:hover p {
 .drop-down-item {
     color: #fff;
     position: absolute;
+    padding: 13px;
     top: 0;
     left: 0;
     right: 8px;
@@ -679,6 +680,7 @@ figure.effect-milo:hover p {
 }
 .the-bass.dropped {
     height: 60vh;
+
     padding: 5px 0;
     -webkit-transition: 0.35s ease;
     transition: 0.35s ease;
@@ -795,11 +797,29 @@ figure.effect-milo:hover p {
     background-size: cover;
     background-attachment: fixed;
 }
+
+/*iphone 5 only*/
 @media (max-width:320px) {
     .lin-up-art p {
         font-size: 33px;
     }
     .lin-up p {
         font-size: 44px;
+    }
+    .the-bass {
+        width: 130px;
+    }
+}
+
+/*rest of tghe phones*/
+@media (max-width:980px) {
+    .lin-up-art p {
+        font-size: 25px;
+    }
+    .the-bass {
+        width: 130px;
+
+    }
+
     }
 }
