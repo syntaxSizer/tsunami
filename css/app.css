@@ -352,7 +352,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 95%;
     height: 100%;
 }
 .video-text p {
@@ -458,7 +458,8 @@ figure.effect-milo:hover p {
     position: relative;
     margin: 0 auto;
     padding-top: 1em;
-/*    padding: 1em 0 4em;*/
+    /*    padding: 1em 0 4em;*/
+
     max-width: 1000px;
     list-style: none;
     text-align: center;
