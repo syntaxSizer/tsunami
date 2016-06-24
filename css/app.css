@@ -199,7 +199,7 @@ h2 {
     background-color: #000000;
 }
 .background {
-    background-image: url(../images/antarctic_landscape-wallpaper-1366x768.jpg);
+    background-image: url(../images/color_burst_painting-wallpaper-1366x768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -457,7 +457,8 @@ figure.effect-milo:hover p {
 .grid {
     position: relative;
     margin: 0 auto;
-    padding: 1em 0 4em;
+    padding-top: 1em;
+/*    padding: 1em 0 4em;*/
     max-width: 1000px;
     list-style: none;
     text-align: center;
@@ -786,4 +787,10 @@ figure.effect-milo:hover p {
 }
 .loction {
     padding-left: 10px;
+}
+.background03 {
+    background-image: url(../images/imagefas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
