@@ -352,7 +352,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 95%;
+    width: 96%;
     height: 100%;
 }
 .video-text p {
@@ -794,4 +794,12 @@ figure.effect-milo:hover p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+@media (max-width:320px) {
+    .lin-up-art p {
+        font-size: 33px;
+    }
+    .lin-up p {
+        font-size: 44px;
+    }
 }
