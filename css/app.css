@@ -680,7 +680,6 @@ figure.effect-milo:hover p {
 }
 .the-bass.dropped {
     height: 60vh;
-
     padding: 5px 0;
     -webkit-transition: 0.35s ease;
     transition: 0.35s ease;
@@ -818,8 +817,5 @@ figure.effect-milo:hover p {
     }
     .the-bass {
         width: 130px;
-
-    }
-
     }
 }
