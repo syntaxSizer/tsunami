@@ -5,4 +5,4 @@
 - JavaScript
 - Foundation Zurb framwork
 
-[Tsunami](syntaxsizer.github.io/tsunami)
+[Tsunami](syntaxsizer.github.io/tsunami/)
