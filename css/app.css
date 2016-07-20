@@ -347,10 +347,9 @@ h2 {
     word-spacing: 0;
 }
 .lin-up p {
-    border: solid 10px #fff;
-    color: #000;
-    background-color: #fff;
-    font-family: 'Cairo', sans-serif;
+    color: #fff;
+/*    background-color: #fff;
+    */    font-family: 'Cairo', sans-serif;
     font-size: 91px;
     font-weight: normal;
     letter-spacing: -1px;
@@ -474,7 +473,7 @@ figure.effect-milo:hover p {
 .lin-up-art {
     color: #fff;
     font-family: 'Cairo', sans-serif;
-    font-size: 91px;
+    font-size: 60px;
     font-weight: normal;
     letter-spacing: -1px;
     word-spacing: 0;
